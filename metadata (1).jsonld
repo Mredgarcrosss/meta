@@ -1,0 +1,173 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "doNotList": "CIP119:doNotList",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a501010258390013f66e46f3f94d949e667eb510674699c457afc170473a107d82a3dc1a55b2d07f60ec03ab41541a93d0cc43b5d060426d0b5575d54a9dbd0327200621582088c2a2a9338c5209c5f0378e513ed0be1711d627c04ba6e5d244d34589738737"
+        },
+        "signature": {
+          "@value": "845846a20127676164647265737358390013f66e46f3f94d949e667eb510674699c457afc170473a107d82a3dc1a55b2d07f60ec03ab41541a93d0cc43b5d060426d0b5575d54a9dbda166686173686564f4584456657269667920445265702064726570316b337764653535746134747a676a777a73336174726533396e7630776c707a33356d616e70676a6663613778777537726e7732584059cc037ef3b2af9897fb36df3e6d4fabee892ca49b50d9b1e7d22262ec83aa77dd0f741fdbb4e6ea931be240a62b4f63e8d4c1b3eb18b1dc39ab9645a156b30c"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "https://www.youtube.com/@MrEdgarcross"
+    },
+    "doNotList": {
+      "@value": "false"
+    },
+    "email": {
+      "@value": "Edgarbg@mail.ru"
+    },
+    "givenName": {
+      "@value": "MREDGARCROSS"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmUioPpSRSnuJRMgB5PmpyquVTbCojuhKYSeZxVgSTQm2e",
+      "sha256": "caaf4ea55dc3aa8f93696f36a6d365fece627560bd13283f124d7d4a04f6d301"
+    },
+    "motivations": {
+      "@value": "У меня многолетний опыт в изучении блокчейн. На моем канале ютуб я снимаю много лет обучающие и мотивирующие видео про компанию CARDANO . Много моих подписчиков знают меня как сторонник компании cardano. Думаю если я сделаю предложение делегировать мне голоса как  DRep в моем регионе - то много людей согласятся . У меня многолетний опыт обучение по блокченй - есть курсы которые я создал. Обучаю много лет как купить ADA - как стекать монету .\n\nI have many years of experience in learning blockchain. On my YouTube channel I have been making educational and motivational videos about the CARDANO company for many years. Many of my subscribers know me as a supporter of the cardano company. I think if I make a proposal to delegate votes to me as DRep in my region, then many people will agree. I have many years of experience teaching blockchain - there are courses that I created. I have been teaching for many years how to buy ADA - how to drain a coin."
+    },
+    "objectives": {
+      "@value": "Представитель компании Cardano в своей стране и регионе.Возглавить обучающий центр по Cordano . Амбасадор.\nЯ больше 7 лет изучаю технологию блокчейн . Являюсь долгосрочным инвестором - в том числе Кардано . Так же на протяжении многих лет снимал видео и популизировал Cordano на моем ютуб канале . Я фанат cardano - сторонник компании . Хочу участвовать в жизни компании и быть частью компании. Так как сейчас появилась такая возможность - то хочу участвовать.\n\nRepresentative of the Cardano company in your country and region. Head of the Cordano training center. Ambassador.\nI have been studying blockchain technology for more than 7 years. I am a long-term investor - including Cardano. For many years, I also shot videos and popularized Cordano on my YouTube channel. I'm a cardano fan - a supporter of the company. I want to participate in the life of the company and be part of the company. Since now such an opportunity has arisen, I want to participate."
+    },
+    "paymentAddress": {
+      "@value": "addr1qxqnnsp3e2e7km9fgpptps8ycwp8lk7gw32vg2wx9gc5egs62kedqlmqasp6ks25r2fapnzrkhgxqsndpd2ht422nk7szh8lhf"
+    },
+    "qualifications": {
+      "@value": "Видеоблогер с 2013г рассказываю про блокчейн технологию .\nМного лет продаю свои видео курсы авторские - обучение блокчейн инвестиции.\nЕсть закрытые сообщество единомышленников в телеграм по блокчейн.\nВ моих уроках есть раздел который посвящен компании Cardano.\nВеду соц сети разные - активный .\nВ своих уроках могу рассказать про возможность голосования и предложить себя как DRep.\n\nA video blogger since 2013, I talk about blockchain technology.\nFor many years I have been selling my own video courses - blockchain investment training.\nThere is a closed community of like-minded people in Telegram using blockchain.\nIn my lessons there is a section dedicated to the Cardano company.\nI run different social networks - I am active.\nIn my lessons I can talk about the possibility of voting and offer myself as DRep.\n"
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "youtube - Мысля от Эдгара 120000 subscribers"
+        },
+        "uri": {
+          "@value": "https://www.youtube.com/@MrEdgarcross"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "My website - social networks and blockchain lessons"
+        },
+        "uri": {
+          "@value": "https://mredgarcross.com/"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "LESSON “LEDGER COLD CRYPTO WALLET” | METAMASK"
+        },
+        "uri": {
+          "@value": "https://edgarbagdasarian.justclick.ru/LEDGER"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "twitter"
+        },
+        "uri": {
+          "@value": "https://twitter.com/MrEdgarcross"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "social network VKontakte"
+        },
+        "uri": {
+          "@value": "https://vk.com/mredgarcross"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "PERSONAL TELEGRAM"
+        },
+        "uri": {
+          "@value": "https://t.me/Mredgarcross"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Instagram"
+        },
+        "uri": {
+          "@value": "https://goo.gl/08Vv3g"
+        }
+      }
+    ]
+  }
+}
